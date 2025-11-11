@@ -1,6 +1,7 @@
-Duoc UC
-
 🧠 Evaluación Sumativa Semana 3 – Desarrollo Orientado a Objetos I
+🏫 DUOC UC
+
+Escuela de Informática y Telecomunicaciones
 
 👤 Autor del proyecto
 
@@ -16,21 +17,18 @@ Sede: Online
 
 Este proyecto modela la estructura básica de la empresa salmonera Salmontt, ubicada en Puerto Montt.
 
-El sistema representa las personas que interactúan con la organización —como empleados y clientes— aplicando principios de Programación Orientada a Objetos: encapsulamiento, composición, reutilización y organización modular del código.
+El sistema representa las personas que interactúan con la organización —como empleados y clientes— aplicando principios de Programación Orientada a Objetos (POO): encapsulamiento, composición, reutilización y organización modular del código.
 
 El objetivo es construir una base sólida para futuras etapas del sistema, permitiendo gestionar la información de las personas de manera estructurada y extensible.
 
 El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
 
-En futuras versiones, se podrían realizar mejoras en el proyecto implementando herencias entre las clases, Persona, Cliente y Empleado.
+💡 En futuras versiones, se podrían implementar mejoras al modelo utilizando herencia entre las clases Persona, Cliente y Empleado, permitiendo una estructura más reutilizable y extensible.
 
 🧱 Estructura general del proyecto
-
 📁 src/
-
 ├── app/         # Clase principal con el método main
-
-├── model/       # Clases de dominio (Persona, Cliente, Empleado, Domicilio, etc.)
+├── model/       # Clases de dominio (Persona, Cliente, Empleado, Direccion, etc.)
 
 ⚙️ Ejecución del programa
 
@@ -74,9 +72,14 @@ Composición: Persona contiene un objeto Direccion; Empleado y Cliente contienen
 
 Sobrescritura de métodos (toString()): para mostrar información legible de los objetos.
 
-Organización modular: clases separadas en paquetes model y app
+Organización modular: clases separadas en paquetes model y app.
 
-Repositorio GitHub: https://github.com/ManoValenzuela/S3_DesarrolloOObjetos.git Fecha de entrega: [10/11/2025]
+🔗 Repositorio GitHub
 
+https://github.com/ManoValenzuela/S3_DesarrolloOObjetos
+
+📅 Fecha de entrega
+
+10/11/2025
 
 © Duoc UC | Escuela de Informática y Telecomunicaciones
