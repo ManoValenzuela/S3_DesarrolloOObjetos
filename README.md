@@ -1,12 +1,21 @@
 Duoc UC
+
 🧠 Evaluación Sumativa Semana 3 – Desarrollo Orientado a Objetos I
+
 👤 Autor del proyecto
+
 Nombre completo: Manola Valenzuela González
+
 Sección: 002A
+
 Carrera: Analista Programador Computacional
+
 Sede: Online
+
 📘 Descripción general del sistema
+
 Este proyecto modela la estructura básica de la empresa salmonera Salmontt, ubicada en Puerto Montt.
+
 El sistema representa las personas que interactúan con la organización —como empleados y clientes— aplicando principios de Programación Orientada a Objetos: encapsulamiento, composición, reutilización y organización modular del código.
 
 El objetivo es construir una base sólida para futuras etapas del sistema, permitiendo gestionar la información de las personas de manera estructurada y extensible.
@@ -16,8 +25,11 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 En futuras versiones, se podrían realizar mejoras en el proyecto implementando herencias entre las clases, Persona, Cliente y Empleado.
 
 🧱 Estructura general del proyecto
+
 📁 src/
+
 ├── app/         # Clase principal con el método main
+
 ├── model/       # Clases de dominio (Persona, Cliente, Empleado, Domicilio, etc.)
 
 ⚙️ Ejecución del programa
@@ -57,10 +69,14 @@ Categoría: Restaurantes
 🧠 Conceptos aplicados
 
 Encapsulamiento: uso de atributos privados con getters y setters.
+
 Composición: Persona contiene un objeto Direccion; Empleado y Cliente contienen un objeto Persona.
+
 Sobrescritura de métodos (toString()): para mostrar información legible de los objetos.
+
 Organización modular: clases separadas en paquetes model y app
 
 Repositorio GitHub: https://github.com/ManoValenzuela/S3_DesarrolloOObjetos.git Fecha de entrega: [10/11/2025]
+
 
 © Duoc UC | Escuela de Informática y Telecomunicaciones
